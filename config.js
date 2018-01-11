@@ -40,7 +40,7 @@ var config = {
   blockchainExplorerOpts: {
     livenet: {
       provider: 'insight',
-      url: 'https://insight.bitpay.com:443',
+      url: 'http://localhost:8080/',
     },
     testnet: {
       provider: 'insight',
@@ -50,18 +50,18 @@ var config = {
       // url: ['http://a.b.c', 'https://test-insight.bitpay.com:443'],
     },
   },
-  pushNotificationsOpts: {
-    templatePath: './lib/templates',
-    defaultLanguage: 'en',
-    defaultUnit: 'btc',
-    subjectPrefix: '',
-    pushServerUrl: 'https://fcm.googleapis.com/fcm',
-    authorizationKey: '',
-  },
-  fiatRateServiceOpts: {
-    defaultProvider: 'BitPay',
-    fetchInterval: 60, // in minutes
-  },
+  // pushNotificationsOpts: {
+  //   templatePath: './lib/templates',
+  //   defaultLanguage: 'en',
+  //   defaultUnit: 'dal',
+  //   subjectPrefix: '',
+  //   pushServerUrl: 'https://fcm.googleapis.com/fcm',
+  //   authorizationKey: '',
+  // },
+  // fiatRateServiceOpts: {
+  //   defaultProvider: 'BitPay',
+  //   fetchInterval: 60, // in minutes
+  // },
   // To use email notifications uncomment this:
   // emailOpts: {
   //  host: 'localhost',
