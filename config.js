@@ -40,7 +40,7 @@ var config = {
   blockchainExplorerOpts: {
     livenet: {
       provider: 'insight',
-      url: 'http://localhost:8080/',
+      url: 'http://localhost/',
     },
     testnet: {
       provider: 'insight',
