@@ -40,7 +40,7 @@ var config = {
   blockchainExplorerOpts: {
     livenet: {
       provider: 'insight',
-      url: 'http://explorer.dallar.org',
+      url: 'https://explorer.dallar.org',
     },
     testnet: {
       provider: 'insight',
